@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# ASSIGMENT ON REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## QUESTION 1
 
-## Available Scripts
+The Five significant features of react are:
 
-In the project directory, you can run:
+1. React uses a virtual DOM (Document Object Model) to optimize the performance of updating the UI. It creates a virtual representation of the actual DOM and updates only the necessary parts of the UI, which reduces the number of DOM manipulations and improves the overall performance of the application.
+2. React follows a component-based architecture, which means that the UI is divided into small, reusable components that can be easily composed to create complex UIs. This approach makes it easy to manage the code and maintain the application.
+3. React uses JSX (JavaScript XML) to create templates that combine HTML-like syntax with JavaScript. This makes it easy to create and manage the UI, as it provides a way to write HTML-like code directly in JavaScript.
+4. React follows a unidirectional data flow, which means that the data flows only in one direction, from parent components to child components. This approach makes it easy to manage the state of the application and avoid unexpected changes in the UI.
+5. React also offers React Native, a framework for building mobile applications for iOS and Android platforms. With React Native, developers can use the same React codebase to create native mobile applications, which reduces the development time and effort.
 
-### `npm start`
+## QUESTION 2
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The five major advantage of react is:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. React uses a declarative programming approach, allowing developers to focus on describing what they want their application to look like, rather than focusing on the underlying implementation details.
+2. React uses one-way data binding, which means that changes to the data flow in a single direction, from the parent component to its child components. This makes it easier to manage and debug data flow within the application.
+3. React is designed to be easy to test, with a focus on separation of concerns and modularity. This makes it easier to write unit tests for individual components and ensure that they work as intended.
+4. React has a large community of developers and a robust ecosystem of tools and libraries. This means that developers can easily find support and resources when they need them, making it easier to build complex applications.
+5. React is built on a component-based architecture, which means that the application is broken down into smaller, reusable components. This makes it easier to manage and update the application as it grows.
 
-### `npm test`
+## QUESTION 3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The software engineer who created React is Jordan Walke. React was initially developed by Facebook, and it is currently maintained by Facebook and a community of individual developers and companies. However, React is an open-source library, which means that it can be used and contributed to by anyone, regardless of their affiliation with Facebook.
 
-### `npm run build`
+## QUESTION 4
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The difference between HTML and JSX are:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Syntax: The syntax of HTML and JSX is different. HTML uses tags and attributes to define elements, while JSX uses a combination of HTML-like syntax and JavaScript expressions. For example, in HTML, a paragraph element is defined using the <p> tag, while in JSX, it can be defined using the <p> tag as well, but with the added ability to interpolate JavaScript expressions using curly braces {}.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Handling Attributes: In HTML, attributes are defined using name-value pairs inside the opening tag of an element. In JSX, attributes are also defined using name-value pairs, but they are passed as props to a component. This allows for more flexibility and reusability of components.
+3. Embedding JavaScript: In HTML, JavaScript is embedded using the <script> tag. In JSX, JavaScript can be embedded using curly braces {} anywhere in the markup. This allows for dynamic content and logic to be included directly in the markup.
 
-### `npm run eject`
+## QUESTION 5
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Browsers can't read JSX because they are designed to read and interpret HTML, CSS, and JavaScript code, but they do not natively understand JSX. JSX is a syntax extension for JavaScript that is used in frameworks such as React to allow developers to write code that resembles HTML markup.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To make JSX code readable by browsers, it needs to be transpiled into standard JavaScript code using a tool like Babel before it is served to the browser. Babel will convert JSX syntax into plain JavaScript code that the browser can interpret.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In other words, browsers are not capable of interpreting JSX because it is not a standard part of JavaScript. However, with the help of tools like Babel, developers can still use JSX to create dynamic web applications that can be rendered in the browser.
